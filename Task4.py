@@ -5,6 +5,18 @@
 
 #-------AND-------
 #and--Returns True if both statements are true
+print(True and False)
+print(False and True)
+print(True and False)
+print(False and False)
+print(3 and 2)
+print(2 and 3)
+print(3 and "")
+print("" and 0)
+print(-1 and -3)
+print(0 and "")
+print(False and 54)
+print(None and 3)
 x = 5
 print(x > 3 and x < 10)# returns True because 5 is greater than 3 AND 5 is less than 
 y=20
@@ -21,6 +33,14 @@ else:
 
 #----------OR----------
 #or--Returns True if one of the statements is true
+print(True or False)
+print(False or True)
+print(True or False)
+print(False or False)
+print(2 or 3)
+print(3 or 2)
+print("" or True)
+print(0 or 0 or 1)
 x = 5
 print(x > 3 or x < 4)# returns True because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
 print(x > 6 or x < 3)#returns false
@@ -38,6 +58,10 @@ else:
 
 #---------NOT------
 #not--Reverse the result, returns False if the result is true
+print(not True)
+print(not False)
+print(not(2 or 3))
+print(not("" and 3))
 x = 5
 print(not(x > 3 and x < 10))# returns False because not is used to reverse the result
 print(not(x > 6 and x < 10))#returns true
@@ -56,6 +80,7 @@ else:
 
 #------&----------
 # &(AND)-Sets each bit to 1 if both bits are 1
+
 print(6 & 3)
 print(8 & 4)
 a = 10
