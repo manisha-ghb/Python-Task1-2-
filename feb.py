@@ -180,27 +180,28 @@
 # print(list(res))
 
 #filter
-def check_neg_num(x):
-    # if x<0:
-    #     return True
-    # return False
-    return x<0
+# def check_neg_num(x):
+#     # if x<0:
+#     #     return True
+#     # return False
+#     return x<0
 
-print(list(filter(check_neg_num, [-2, -3, -1, 22, 13, 15])))
+# print(list(filter(check_neg_num, [-2, -3, -1, 22, 13, 15])))
 
-##17th feb
-#DECORATORS
-def example_decorator(func):
-    def wrapper():
-        print("Chech A4 sheets")
-        print("Chech cartridge")
-        func()
-        print("Thankyou")
+# ##17th feb
+# #DECORATORS
+# def example_decorator(func):
+#     def wrapper():
+#         print("Chech A4 sheets")
+#         print("Chech cartridge")
+#         func()
+#         print("Thankyou")
 
-    return wrapper
-@example_decorator
-def printer():
-    print("Printing in progress...")
+#     return wrapper
+# @example_decorator
+# def printer():
+#     print("Printing in progress...")
 
-printer()
+# printer()
+
 

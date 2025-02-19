@@ -1,3 +1,10 @@
+#revise topics
+#how to declare different types of datatypes
+#conditional statements - if and else statements, elif
+#loops - while, for, jump statements- break, continue
+#functions - declaring a function and call a function, return statements usage
+#inbuilt functions - atleast the most famous once - string and list
+
 #variables
 a = 85
 b = 58
